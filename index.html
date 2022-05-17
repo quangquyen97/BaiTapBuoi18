@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="">
+        <div class="form-group">
+          <label for="number">Nhập số</label>
+          <input
+            type="number"
+            class="form-control"
+            id="number"
+          />
+        </div>
+
+        <button type="button" onclick="nhapSo()" class="btn m-1 btn-primary">Nhận Số</button>
+        <button type="button" onclick="tongSoDuong()" class="btn m-1 btn-primary">Tổng số dương</button>
+        <button type="button" onclick="demSoDuong()" class="btn m-1 btn-primary">Đếm số dương</button>
+        <button type="button" onclick="timSoNhoNhat()" class="btn m-1 btn-primary">Tìm số nhỏ nhất</button>
+        <button type="button" onclick="timSoDuongNhoNhat()" class="btn m-1 btn-primary">Tìm số duong nhỏ nhất</button>
+        <button type="button" onclick="timSoChan()" class="btn m-1 btn-primary">Tìm số chẵn cuối</button>
+        <button type="button" onclick="sapXep()" class="btn m-1 btn-primary">Sắp xếp tăng dần</button>
+        <button type="button" onclick="soNTDauTien()" class="btn m-1 btn-primary">Số nguyên tố đầu tiên</button>
+        <button type="button" onclick="soSanh()" class="btn m-1 btn-primary">So Sánh âm dương</button>
+        <button type="button" onclick="soThuc()" class="btn m-1 btn-primary">Đếm số nguyên</button>
+        <br>
+        <br>
+        <div class="form-group">
+          <label for="viTriI">Nhập vị trí muốn đổi 1</label>
+          <input
+            type="number"
+            class="form-control"
+            id="viTriI"
+          />
+        </div>
+        <div class="form-group">
+          <label for="viTriII">Nhập vị trí muốn đổi 2</label>
+          <input
+            type="number"
+            class="form-control"
+            id="viTriII"
+          />
+        </div>
+
+        <button type="button" onclick="doiViTri()" class="btn btn-primary">Đổi vị trí</button>
+      </form>
+      <div id="txt" class="alert alert-primary"></div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
